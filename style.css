@@ -1,0 +1,184 @@
+/* Navbar */
+
+.navbar {
+    margin: 5px 15px;
+    background-color: rgb(32, 32, 31) ;
+}
+.navbar-brand p {
+    font-family: kanit;
+    font-size: 20px;
+    color: white !important;
+    float: right;
+    margin-left: 7px;
+    font-weight: 800;
+    margin-top: 4px;
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 16px;
+    font-family: "Kanit";
+}
+
+
+
+/* Jumbotron */
+
+.jumbotron p, h1{
+    margin-left: 20px;
+    
+}
+.jumbotron p {
+    width: 650px;
+    line-height: 2;
+    color: rgb(191, 191, 191);
+    font-family: 'Roboto' sans-serif;
+}
+
+.jumbotron h1 {
+    font-family: 'Kanit';
+    font-size: 30px;
+    color: rgb(54, 163, 233);
+    font-weight: 800;
+    margin-bottom: -10px;
+}
+.lead {
+    color: white !important;
+    font-family: 'Kanit';
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 0px;
+    margin-bottom: -38px;
+}
+.jumbotron {
+    background: transparent !important;
+    padding: 85px;
+}
+
+.btn-primary {
+    background-color:rgb(54, 163, 233);
+    border: rgb(54, 163, 233);
+    margin-left: 20px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 800;
+    margin-right: 30px;
+}
+
+.sosmed img {
+    display: flexbox;
+    width: 24px;
+    margin: 30px 20px
+}
+
+.foto-utama img {
+    height: 400px;
+    margin-top: -370px;
+    margin-left: 850px;
+}
+
+#jumbotron {
+    margin-bottom: -20px;
+
+}
+/* Akhir Jumbotron */
+
+
+
+/* Education */
+.education h1{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 46px;
+    margin-bottom: 50px;
+}
+.card-transparent img {
+    width: 170px;
+    justify-content: center;
+    margin-left: 50px;  
+}
+
+.card-transparent h5 {
+    color: white;
+    font-family: 'Kanit';
+    font-size: 18px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.card-transparent p {
+    color: rgb(191, 191, 191);
+    font-family: 'Roboto';
+    font-size: 14px;
+    text-align: center;
+}
+
+.card-transparent {
+    margin-left: 47px;
+}
+/* Akhir Education */
+
+
+/* Working Experiences */
+
+.job-exp h1{
+    font-size: 700px !important;
+    color: none;
+    font-feature-settings: ;
+}
+.carousel-inner img {
+    width: 375px !important;
+    margin: 25px 0px 25px 165px;
+    float: left;
+}
+
+.carousel-inner {
+    display: flex;
+}
+.carousel-inner h3 {
+    color: white;
+    font-family: 'Kanit';
+    font-size: 23px;
+    margin-top: 70px;
+    width: 300px
+}
+.carousel-inner p {
+    color: rgb(191, 191, 191);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    width: 300px;
+}
+
+.carousel-inner p, h3 {
+    float: right;
+    margin-right: 180px;
+    margin-left: 0px;
+}
+
+.experience h1 {
+    font-size: 46px;
+    color: white;
+    font-family: 'Kanit';
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.experience span {
+    color: rgb(54, 163, 233)
+}
+
+/* Akhir Working Experiences */
+
+
+/* Footer */
+footer {
+    color: rgb(191, 191, 191);
+    margin-top: 200px;
+} 
