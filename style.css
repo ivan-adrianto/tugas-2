@@ -28,15 +28,27 @@
 
 /* Jumbotron */
 
-.jumbotron p, h1{
+.jumbotron h1{
     margin-left: 20px;
     
 }
+
+#lingkaran1 {
+    width: 117px;
+    opacity: 25%;
+    z-index: 1;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -40px;
+}
+
 .jumbotron p {
     width: 650px;
     line-height: 2;
     color: rgb(191, 191, 191);
     font-family: 'Roboto' sans-serif;
+    margin-left: 20px;
+    position: relative;
 }
 
 .jumbotron h1 {
@@ -44,7 +56,9 @@
     font-size: 30px;
     color: rgb(54, 163, 233);
     font-weight: 800;
-    margin-bottom: -10px;
+    margin-bottom: 50px;
+    z-index: 2;
+    position: absolute;
 }
 .lead {
     color: white !important;
@@ -52,7 +66,10 @@
     font-size: 46px;
     font-weight: 800;
     line-height: 0px;
-    margin-bottom: -38px;
+    margin-bottom: -35px;
+    margin-top: 23px;
+    position: absolute;
+    z-index: 2;
 }
 .jumbotron {
     background: transparent !important;
@@ -85,6 +102,20 @@
 #jumbotron {
     margin-bottom: -20px;
 
+}
+
+.pernak1 img {
+    width: 75px;
+    margin-top: -350px;
+    margin-left: 830px;
+    transform: rotate(45deg);
+    filter: blur(2.5px);    
+}
+
+.pernak2 img {
+    width: 60px;
+    margin-top: -775px;
+    margin-left: 875px;
 }
 /* Akhir Jumbotron */
 
