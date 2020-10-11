@@ -1,3 +1,4 @@
+
 /* Navbar */
 
 .navbar {
@@ -204,6 +205,49 @@
 .experience span {
     color: rgb(54, 163, 233)
 }
+
+#garnish6 {
+    width: 70px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+#garnish3 {
+    width: 117px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 300px;
+    margin-top: 140px;
+}
+
+#garnish4 {
+    width: 45px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 560px;
+    margin-top: 40px;
+}
+
+#garnish5 {
+    width: 69px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 900px;
+    margin-top: 150px;
+}
+
+#garnish2 {
+    width: 117px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 1150px;
+    margin-top: 40px;
+}
+
+
+
 
 /* Akhir Working Experiences */
 
