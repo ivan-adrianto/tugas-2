@@ -1,26 +1,26 @@
 const navSelainHome=document.querySelectorAll('.nav-link');
 
-// for (i=0; i<navSelainHome.length; i++){
-//         navSelainHome[i].addEventListener ('mouseover', mouseover);
-// }
+for (i=0; i<navSelainHome.length; i++){
+        navSelainHome[i].addEventListener ('mouseover', mouseover);
+}
 
-// for (i=0; i<navSelainHome.length; i++){
-//     navSelainHome[i].addEventListener ('mouseout', mouseOut);
-// }
+for (i=0; i<navSelainHome.length; i++){
+    navSelainHome[i].addEventListener ('mouseout', mouseOut);
+}
 
-// function mouseover (){    
-//     this.style.borderStyle= 'solid'
-//     this.style.borderRadius='5px'
-//     this.style.borderColor='rgb(54, 163, 233)'
-//     this.style.backgroundColor='rgb(54, 163, 233)'
-//     this.style.fontWeight='800';
-//     };
+function mouseover (){    
+    this.style.borderStyle= 'solid'
+    this.style.borderRadius='5px'
+    this.style.borderColor='rgb(54, 163, 233)'
+    this.style.backgroundColor='rgb(54, 163, 233)'
+    this.style.fontWeight='800';
+    };
 
-// function mouseOut (){
-//     this.style.backgroundColor='rgb(32, 32, 31)'
-//     this.style.borderWidth='0px'
-//     this.style.fontWeight='400'
-// }
+function mouseOut (){
+    this.style.backgroundColor='rgb(32, 32, 31)'
+    this.style.borderWidth='0px'
+    this.style.fontWeight='400'
+}
 
 
 
