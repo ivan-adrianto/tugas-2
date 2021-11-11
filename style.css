@@ -1,10 +1,10 @@
-
 /* Navbar */
 
 .navbar {
     margin: 5px 15px;
-    background-color: rgb(32, 32, 31) ;
+    background-color: rgb(32, 32, 31);
 }
+
 .navbar-brand p {
     font-family: kanit;
     font-size: 20px;
@@ -26,12 +26,10 @@
 }
 
 
-
 /* Jumbotron */
 
-.jumbotron h1{
+.jumbotron h1 {
     margin-left: 20px;
-    
 }
 
 #lingkaran1 {
@@ -61,6 +59,7 @@
     z-index: 2;
     position: absolute;
 }
+
 .lead {
     color: white !important;
     font-family: 'Kanit';
@@ -72,13 +71,14 @@
     position: absolute;
     z-index: 2;
 }
+
 .jumbotron {
     background: transparent !important;
     padding: 85px;
 }
 
 .btn-primary {
-    background-color:rgb(54, 163, 233);
+    background-color: rgb(54, 163, 233);
     border: rgb(54, 163, 233);
     margin-left: 20px;
     font-family: 'Roboto';
@@ -102,37 +102,91 @@
 
 #jumbotron {
     margin-bottom: -20px;
-
+    perspective: 40px;
 }
 
-.pernak1 img {
+.pernak1 {
     width: 75px;
+    height: 75px;
+    border: 2px solid rgb(54, 163, 233);
     margin-top: -350px;
     margin-left: 830px;
     transform: rotate(45deg);
-    filter: blur(2.5px);    
+    filter: blur(1px);
 }
 
-.pernak2 img {
+.pernak2 {
     width: 60px;
-    margin-top: -775px;
-    margin-left: 875px;
+    height: 60px;
+    border: 2px solid rgb(54, 163, 233);
+    filter: blur(1px);
+    margin-left: 1060px;
+    transform: rotate(60deg);
+    margin-top: 150px;
+    position: relative;
+    z-index: 2;
 }
+
+.pernak3 {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(54, 163, 233);
+    transform: rotate(80deg);
+    position: absolute;
+    left: 630px;
+    filter: blur(1px);
+}
+
+.pernak4 {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(54, 163, 233);
+    transform: rotate(30deg);
+    position: absolute;
+    left: 400px;
+    top: 150px;
+    filter: blur(1px);
+}
+
+.pernak5 {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(54, 163, 233);
+    transform: rotate(20deg);
+    position: absolute;
+    left: 800px;
+    top: 370px;
+    filter: blur(1px);
+}
+
+.pernak6 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid rgb(54, 163, 233);
+    transform: rotate(80deg);
+    position: absolute;
+    top: 88px;
+    left: 690px;
+    filter: blur(1px);
+}
+
+
 /* Akhir Jumbotron */
 
 
-
 /* Education */
-.education h1{
+
+.education h1 {
     color: white;
     font-family: 'Kanit', sans-serif;
     font-size: 46px;
     margin-bottom: 50px;
 }
+
 .card-transparent img {
     width: 170px;
     justify-content: center;
-    margin-left: 50px;  
+    margin-left: 50px;
 }
 
 .card-transparent h5 {
@@ -153,25 +207,31 @@
 .card-transparent {
     margin-left: 47px;
 }
+
+
 /* Akhir Education */
 
 
 /* Working Experiences */
 
-.job-exp h1{
+.job-exp h1 {
     font-size: 700px !important;
     color: none;
     font-feature-settings: ;
 }
+
 .carousel-inner img {
     width: 375px !important;
     margin: 25px 0px 25px 165px;
     float: left;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 .carousel-inner {
     display: flex;
 }
+
 .carousel-inner h3 {
     color: white;
     font-family: 'Kanit';
@@ -179,6 +239,7 @@
     margin-top: 70px;
     width: 300px
 }
+
 .carousel-inner p {
     color: rgb(191, 191, 191);
     font-family: 'Roboto', sans-serif;
@@ -186,7 +247,8 @@
     width: 300px;
 }
 
-.carousel-inner p, h3 {
+.carousel-inner p,
+h3 {
     float: right;
     margin-right: 180px;
     margin-left: 0px;
@@ -247,13 +309,12 @@
 }
 
 
-
-
 /* Akhir Working Experiences */
 
 
 /* Footer */
+
 footer {
     color: rgb(191, 191, 191);
     margin-top: 200px;
-} 
+}
