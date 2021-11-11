@@ -25,7 +25,7 @@
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-    <a class="navbar-brand" href="#"><img src="profil.png" alt="Logo">
+    <a class="navbar-brand" href="/index.html"><img src="profil.png" alt="Logo">
       <p>Ivan Adrianto</p>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -34,10 +34,12 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">
-        <li class="nav-item active">
+        <li class="nav-item" id="home">
           <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
-        <a class="nav-link" href="/portfolio.html">Portfolio</a>
+        <li class="nav-item" id="portfolio">
+          <a class="nav-link" href="/portfolio.html">Portfolio</a>
+        </li>
       </div>
     </div>
   </nav>
@@ -85,44 +87,97 @@
   <!-- Akhir Jumbotron -->
 
 
+  <!-- Portfolio -->
+  <br><br><br><br><br><br>
+  <div class="container">
+    <div class="portfolio-category">
+      <div class="col-sm-12 text-center portfolio-header mb-4">
+        <a href="/portfolio.html">
+          <h1><strong>Recent </strong><span>Projects</span></h1>
+        </a>
+      </div>
+      <div>
+        <a href="/portfolio.html">
+          <img src="img/portfolio/batumbu.png" alt="batumbu">
+        </a>
+        <a href="/portfolio.html">
+          <img src="img/portfolio/iris.png" alt="iris">
+        </a>
+        <a href="portfolio.html">
+          <img src="img/portfolio/finfini.png" alt="finfini">
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Akhir Portfolio -->
 
-  <!-- Education -->
-  <section class="education" id="education">
+  <!-- Start Expertise -->
+  <section class="expertise" id="expertise">
     <br \><br \><br \>
     <div class="container" style="padding-left: 0px;">
       <div class="row">
         <div class="col-sm-12 text-center">
-          <h1><strong>Education</strong></h1>
+          <h1><strong>Skills</strong></h1>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-4 d-flex justify-content-center">
-          <div class="card-transparent" style="width: 18rem;">
-            <img src="img/unair.png" class="card-img-top" alt="Unair">
+          <div class="card-transparent skills" style="width: 18rem;">
+            <div class="card-image">
+              <img src="img/react.png" class="card-img-top" alt="React">
+            </div>
             <div class="card-body">
-              <h5 class="card-title">Universitas Airlangga</h5>
-              <p class="card-text">Learned in English Department and graduated in 2018. One of the best graduates in
-                2018.</p>
+              <h5 class="card-title">React Js</h5>
             </div>
           </div>
         </div>
         <div class="col-sm-4 justify-content-center">
-          <div class="card-transparent" style="width: 18rem;">
-            <img src="img/stid.png" class="card-img-top" alt="stid">
+          <div class="card-transparent skills" style="width: 18rem;">
+            <div class="card-image">
+              <img src="img/redux.png" class="card-img-top" alt="redux">
+            </div>
             <div class="card-body">
-              <h5 class="card-title">STID Al Hadid Surabaya</h5>
-              <p class="card-text">Learned communication and graduate in 2019. Runner-Up of English Debate Competition
-                in 2016.</p>
+              <h5 class="card-title">Redux</h5>
             </div>
           </div>
         </div>
         <div class="col-sm-4 d-flex justify-content-center">
-          <div class="card-transparent" style="width: 18rem;">
-            <img src="img/glints-circled.png" class="card-img-top" alt="Glints">
+          <div class="card-transparent skills" style="width: 18rem;">
+            <div class="card-image">
+              <img src="img/nextjs.png" class="card-img-top" alt="next">
+            </div>
             <div class="card-body">
-              <h5 class="card-title">Glints Academy</h5>
-              <p class="card-text">Learned front-end development in Glints Academy Batch 8, 2020. Soon become front-end
-                developer.</p>
+              <h5 class="card-title">Next.Js</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 d-flex justify-content-center">
+          <div class="card-transparent skills" style="width: 18rem;">
+            <div class="card-image">
+              <img src="img/bootstrap.png" class="card-img-top" alt="bootstrap">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 d-flex justify-content-center">
+          <div class="card-transparent skills" style="width: 18rem;">
+            <div class="card-image">
+              <img src="img/materialui.png" class="card-img-top" alt="material-ui">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Material UI</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 d-flex justify-content-center">
+          <div class="card-transparent skills" style="width: 18rem;">
+            <div class="card-image">
+              <img src="img/git.png" class="card-img-top" alt="git">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Git</h5>
             </div>
           </div>
         </div>
@@ -130,9 +185,7 @@
     </div>
     </div>
   </section>
-  <br \>
-  <br \>
-  <!-- Akhir Education -->
+  <!-- Akhir Expertise -->
 
 
 
@@ -170,20 +223,66 @@
         </a>
       </div>
     </div>
-    <img src="img/linkosab.png" alt="pernak1" id="garnish2"></img>
-    <img src="img/linkosab.png" alt="pernak1" id="garnish3"></img>
-    <img src="img/linibr.png" alt="pernak1" id="garnish4"></img>
-    <img src="img/linibr.png" alt="pernak1" id="garnish5"></img>
-    <img src="img/linkosbr.png" alt="pernak1" id="garnish6"></img>
   </section>
 
   <!-- Akhir Working experiences -->
 
+    <!-- Education -->
+    <section class="education" id="education">
+      <br \><br \><br \>
+      <div class="container" style="padding-left: 0px;">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h1><strong>Education</strong></h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 d-flex justify-content-center">
+            <div class="card-transparent" style="width: 18rem;">
+              <img src="img/unair.png" class="card-img-top" alt="Unair">
+              <div class="card-body">
+                <h5 class="card-title">Universitas Airlangga</h5>
+                <p class="card-text">Learned in English Department and graduated in 2018. One of the best graduates in
+                  2018.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 justify-content-center">
+            <div class="card-transparent" style="width: 18rem;">
+              <img src="img/stid.png" class="card-img-top" alt="stid">
+              <div class="card-body">
+                <h5 class="card-title">STID Al Hadid Surabaya</h5>
+                <p class="card-text">Learned communication and graduate in 2019. Runner-Up of English Debate Competition
+                  in 2016.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 d-flex justify-content-center">
+            <div class="card-transparent" style="width: 18rem;">
+              <img src="img/glints-circled.png" class="card-img-top" alt="Glints">
+              <div class="card-body">
+                <h5 class="card-title">Glints Academy</h5>
+                <p class="card-text">Learned front-end development in Glints Academy Batch 8, 2020. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <img src="img/linkosab.png" alt="pernak1" id="garnish2"></img>
+      <img src="img/linkosab.png" alt="pernak1" id="garnish3"></img>
+      <img src="img/linibr.png" alt="pernak1" id="garnish4"></img>
+      <img src="img/linibr.png" alt="pernak1" id="garnish5"></img>
+      <img src="img/linkosbr.png" alt="pernak1" id="garnish6"></img>
+    </section>
+    <br \>
+    <br \>
+    <!-- Akhir Education -->
 
   <!-- Footer -->
   <footer>
     <div class="container text-center" id='footer'>
-      <p> &copy; Copyright 2020 by <a href="https://instagram.com/ivanadrianto_">Ivan Adrianto</a></p>
+      <p> &copy; Copyright 2021 by <a href="https://instagram.com/ivanadrianto_">Ivan Adrianto</a></p>
     </div>
   </footer>
 

@@ -23,7 +23,19 @@
     color: white !important;
     font-size: 16px;
     font-family: "Kanit";
+    padding: 5px 15px;
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.nav-item.active {
+    background-color: rgb(54, 163, 233);
+    border-radius: 10px;
+}
+
+
 
 
 /* Jumbotron */
@@ -211,6 +223,54 @@
 
 /* Akhir Education */
 
+/* Portfolios */
+.portfolio-header h1 {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 46px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.portfolio-header h1 strong {
+    font-weight: 700;
+}
+/* Akhir Portfolios */
+
+/* skills */
+.expertise h1 {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 46px;
+    margin-bottom: 50px;
+}
+
+.card-image {
+    background-color: white;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+}
+
+.card-image img {
+    max-height: 100px;
+    width: auto;
+    max-width: 100px;
+    margin-left: 0px;
+}
+
+.card-transparent.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Akhir skills */
+
 
 /* Working Experiences */
 
@@ -317,4 +377,54 @@ h3 {
 footer {
     color: rgb(191, 191, 191);
     margin-top: 200px;
+}
+
+
+/* Portfolio page */
+.portfolio-category h1 {
+    font-family: "Kanit";
+    margin-bottom: 20px;    
+    cursor: pointer;
+}
+
+.portfolio-category strong {
+    color: white;
+    font-weight: 400;
+}
+
+.portfolio-category span {
+    color: rgb(54, 163, 233);
+}
+
+.portfolio-category {
+    margin-bottom: 70px;
+}
+
+.portfolio-category img {
+    margin: 0px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* Akhir portfolio page */
+
+/* Portfolio category page */
+.portfolio-list-item p {
+    color: white;
+    margin-bottom: 0px;
+}
+
+.portfolio-list-item h2 {
+    color: white;
+    font-family: "Kanit";
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.portfolio-list-item img {
+    cursor: default;
+}
+
+.portfolio-category.detail h1 {
+    cursor: default;
 }
