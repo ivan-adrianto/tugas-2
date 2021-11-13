@@ -44,6 +44,11 @@
     margin-left: 20px;
 }
 
+.main-content-jumbotron {
+    display: flex;
+    flex-direction: column;
+}
+
 #lingkaran1 {
     width: 117px;
     opacity: 25%;
@@ -406,6 +411,10 @@ footer {
     border-radius: 10px;
 }
 
+.portfolio-thumbnail {
+    height: 176px;
+}
+
 /* Akhir portfolio page */
 
 /* Portfolio category page */
@@ -427,4 +436,196 @@ footer {
 
 .portfolio-category.detail h1 {
     cursor: default;
+}
+
+.portfolio-description {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.portfolio-item {
+    display: flex;
+}
+
+
+/* Mobile view */
+@media screen and (max-width: 768px) {
+    /* Navbar mobile */
+    .navbar {
+        height: 50px;
+        width: 100vw;
+        margin-left: 0px;
+    }
+    .navbar-toggler-icon {
+        background-image: url("/img/menu.png") !important;
+        height: 25px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .navbar-nav {
+        margin-top: 20px;
+        background-color: rgb(32, 32, 31);
+        width: 100vw;
+        padding: 10px 40px;
+        position: relative;
+        left: -15px;
+    }
+    /* Akhir navbar mobile */
+
+    /* jumbotron */
+    .jumbotron {
+        padding: 0px;
+    }
+    .main-content-jumbotron {
+        flex-direction: column-reverse;
+    }
+    .jumbotron p {
+        width: calc(100vw - 40px) !important;
+    }
+    .jumbotron h1 {
+        font-size: 22px;
+    }
+    .foto-utama img {
+        margin-left: calc(50vw - 100px);
+        margin-top: 0px;
+        margin-bottom: 20px;
+        width: 200px;
+        height: auto;
+        position: relative;
+    }
+    .lead {
+        font-size: 26px;
+    }
+    .pernak1, .pernak2, .pernak3, .pernak4, .pernak5, .pernak6 {
+        display: none;
+    }
+    .sosmed img {
+        margin: 30px 10px;
+    }
+    .btn-primary {
+        margin-right: 10px;
+    }
+    /* Akhir Jumbotron */
+
+
+    /* Projects Section */
+    .portfolio-header h1 {
+        font-size: 28px;
+    }
+    .portfolio-category.home {
+        margin-top: -50px;
+        text-align: center;
+    }
+    .portfolio-category img {
+        margin-bottom: 30px;
+    }
+    /* Akhir Projects Section */
+    /* Skills Section */
+    .expertise h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .card-image {
+        height: 80px;
+        width: 80px;
+    }
+
+    .card-image img {
+        max-height: 70%;
+        max-width: 80%;
+    }
+    .card-transparent {
+        width: 20% !important;
+        margin-left: 0px;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    /* Akhir skills section */
+
+    /* working experience */
+    .experience h1 {
+        font-size: 28px;
+    }
+    .carousel-inner img {
+        margin: 0px;
+    }
+
+    .carousel-inner h3, p {
+        margin-right: 0px !important;
+        width: 100% !important;
+    }
+
+    .carousel-inner h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 24px !important;
+        font-weight: 700;
+    }
+
+    .carousel-inner p {
+        font-size: 16px !important;
+    }
+    /* Akhir working experience */
+
+    /* Education */
+    .education h1 {
+        font-size: 28px;
+    }
+
+    .card-transparent .card-img-top.education {
+        text-align: center;
+        margin-left: calc(50vw - 50px);
+        height: 100px;
+        width: 100px;
+    }
+
+    .card-transparent.education {
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+
+    .card-body {
+        width: 100vw;
+    }
+
+    .card-text {
+        font-size: 16px !important;
+    }
+    /* Akhir Education */
+
+    /* Footer */
+    #garnish2, #garnish3, #garnish4, #garnish5, #garnish6 {
+        display: none;
+    }
+    #footer {
+        margin-top: -200px;
+    }
+    /* Akhir Footer */
+
+    /* Project Page */
+    .portfolio-category h1, .portfolio-category strong {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    /* Akhir project page */
+
+    /* Project detail page */
+    .portfolio-item {
+        display: block;
+    }
+    .portfolio-description {
+        align-items: center;
+        font-size: 16px;
+    }
+    .portfolio-description img {
+        margin-bottom: 0px;
+    }
+    /* Akhir project detail page */
+
 }
