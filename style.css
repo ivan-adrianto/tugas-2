@@ -42,11 +42,11 @@
 
 .jumbotron h1 {
     margin-left: 20px;
-}
-
-.main-content-jumbotron {
-    display: flex;
-    flex-direction: column;
+    font-family: 'Kanit';
+    font-size: 30px;
+    color: rgb(54, 163, 233);
+    font-weight: 800;
+    margin-bottom: 0px;
 }
 
 #lingkaran1 {
@@ -64,17 +64,6 @@
     color: rgb(191, 191, 191);
     font-family: 'Roboto' sans-serif;
     margin-left: 20px;
-    position: relative;
-}
-
-.jumbotron h1 {
-    font-family: 'Kanit';
-    font-size: 30px;
-    color: rgb(54, 163, 233);
-    font-weight: 800;
-    margin-bottom: 50px;
-    z-index: 2;
-    position: absolute;
 }
 
 .lead {
@@ -84,14 +73,11 @@
     font-weight: 800;
     line-height: 0px;
     margin-bottom: -35px;
-    margin-top: 23px;
-    position: absolute;
-    z-index: 2;
 }
 
 .jumbotron {
     background: transparent !important;
-    padding: 85px;
+    padding: 4rem 0 4rem 2rem;
 }
 
 .btn-primary {
@@ -113,8 +99,6 @@
 
 .foto-utama img {
     height: 400px;
-    margin-top: -370px;
-    margin-left: 850px;
 }
 
 #jumbotron {
@@ -267,12 +251,16 @@
     max-width: 100px;
     margin-left: 0px;
 }
+.card-image.ejs img {
+    max-width: 150px;
+}
 
 .card-transparent.skills {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 0px;
 }
 /* Akhir skills */
 
@@ -337,23 +325,23 @@ h3 {
     width: 70px;
     position: absolute;
     z-index: 2;
-    margin-left: 70px;
-    margin-top: 30px;
+    left: 8vw;
+    top: 30px;
 }
 
 #garnish3 {
     width: 117px;
     position: absolute;
     z-index: 2;
-    margin-left: 300px;
-    margin-top: 140px;
+    left: 22vw;
+    top: 140px;
 }
 
 #garnish4 {
     width: 45px;
     position: absolute;
     z-index: 2;
-    margin-left: 560px;
+    margin-left: 45vw;
     margin-top: 40px;
 }
 
@@ -361,7 +349,7 @@ h3 {
     width: 69px;
     position: absolute;
     z-index: 2;
-    margin-left: 900px;
+    margin-left: 65vw;
     margin-top: 150px;
 }
 
@@ -369,7 +357,7 @@ h3 {
     width: 117px;
     position: absolute;
     z-index: 2;
-    margin-left: 1150px;
+    margin-left: 85vw;
     margin-top: 40px;
 }
 
@@ -381,7 +369,7 @@ h3 {
 
 footer {
     color: rgb(191, 191, 191);
-    margin-top: 200px;
+    margin-top: 300px;
 }
 
 
@@ -406,7 +394,7 @@ footer {
 }
 
 .portfolio-category img {
-    margin: 0px 20px;
+    margin: 0px;
     cursor: pointer;
     border-radius: 10px;
 }
@@ -481,25 +469,23 @@ footer {
     .jumbotron {
         padding: 0px;
     }
-    .main-content-jumbotron {
-        flex-direction: column-reverse;
-    }
     .jumbotron p {
-        width: calc(100vw - 40px) !important;
+        width: calc(100vw - 40px);
+        margin-left: 0;
     }
     .jumbotron h1 {
         font-size: 22px;
     }
     .foto-utama img {
-        margin-left: calc(50vw - 100px);
         margin-top: 0px;
         margin-bottom: 20px;
         width: 200px;
         height: auto;
         position: relative;
     }
-    .lead {
+    p.lead {
         font-size: 26px;
+        margin-left: 20px;
     }
     .pernak1, .pernak2, .pernak3, .pernak4, .pernak5, .pernak6 {
         display: none;
@@ -524,6 +510,10 @@ footer {
     .portfolio-category img {
         margin-bottom: 30px;
     }
+    .portfolio-thumbnail {
+        height: unset;
+        width: 100%;
+    }
     /* Akhir Projects Section */
     /* Skills Section */
     .expertise h1 {
@@ -531,12 +521,16 @@ footer {
         text-align: center;
     }
     .card-image {
-        height: 80px;
-        width: 80px;
+        height: 100px;
+        width: 100px;
+        padding: 10px;
     }
 
     .card-image img {
         max-height: 70%;
+        max-width: 100%;
+    }
+    .card-image.ejs img {
         max-width: 80%;
     }
     .card-transparent {
@@ -627,5 +621,10 @@ footer {
         margin-bottom: 0px;
     }
     /* Akhir project detail page */
+
+    /* Footer */
+    footer {
+        margin-top: 50px;
+    }
 
 }
