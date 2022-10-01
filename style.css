@@ -401,6 +401,9 @@ footer {
 
 .portfolio-thumbnail {
     height: 169px;
+    min-width: 326px;
+    max-width: 100%;
+    object-fit: cover;
 }
 
 /* Akhir portfolio page */
@@ -415,7 +418,6 @@ footer {
     color: white;
     font-family: "Kanit";
     display: inline-block;
-    margin-left: 20px;
 }
 
 .portfolio-list-item img {
@@ -512,7 +514,8 @@ footer {
     }
     .portfolio-thumbnail {
         height: unset;
-        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
     }
     /* Akhir Projects Section */
     /* Skills Section */
@@ -598,7 +601,7 @@ footer {
         display: none;
     }
     #footer {
-        margin-top: -150px;
+        margin-top: 0px;
     }
     /* Akhir Footer */
 
