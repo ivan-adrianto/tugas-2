@@ -652,7 +652,6 @@ footer {
 
     .card-transparent .card-img-top.education {
         text-align: center;
-        margin-left: calc(50vw - 50px);
         height: 100px;
         width: 100px;
     }
@@ -661,11 +660,6 @@ footer {
         width: 100% !important;
         margin-bottom: 50px;
     }
-
-    .card-body {
-        width: 100vw;
-    }
-
     .card-text {
         font-size: 16px !important;
     }
