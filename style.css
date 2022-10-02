@@ -39,7 +39,6 @@
 
 
 /* Jumbotron */
-
 .jumbotron h1 {
     margin-left: 20px;
     font-family: 'Kanit';
@@ -120,8 +119,69 @@
     margin-left: 830px;
     transform: rotate(45deg);
     filter: blur(1px);
-    animation: fade-in 2s linear;
+    animation: pop-in 2.4s linear;
 }
+
+.pernak2 {
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgb(54, 163, 233);
+    filter: blur(1px);
+    margin-left: 1060px;
+    transform: rotate(60deg);
+    margin-top: 150px;
+    position: relative;
+    z-index: 2;
+    animation: pop-in 2.5s linear;
+}
+
+.pernak3 {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(54, 163, 233);
+    transform: rotate(80deg);
+    position: absolute;
+    left: 630px;
+    filter: blur(1px);
+    animation: pop-in 2.6s linear;
+}
+
+.pernak4 {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(54, 163, 233);
+    transform: rotate(30deg);
+    position: absolute;
+    left: 400px;
+    top: 150px;
+    filter: blur(1px);
+    animation: pop-in 2.7s linear;
+}
+
+.pernak5 {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(54, 163, 233);
+    transform: rotate(20deg);
+    position: absolute;
+    left: 800px;
+    top: 370px;
+    filter: blur(1px);
+    animation: pop-in 2.8s linear;
+}
+
+.pernak6 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid rgb(54, 163, 233);
+    transform: rotate(80deg);
+    position: absolute;
+    top: 88px;
+    left: 690px;
+    filter: blur(1px);
+    animation: pop-in 2.9s linear;
+}
+
 
 .pernak1:hover,
 .pernak2:hover,
@@ -141,65 +201,6 @@
     transition: transform 0.7s ease-in-out;
 }
 
-.pernak2 {
-    width: 60px;
-    height: 60px;
-    border: 2px solid rgb(54, 163, 233);
-    filter: blur(1px);
-    margin-left: 1060px;
-    transform: rotate(60deg);
-    margin-top: 150px;
-    position: relative;
-    z-index: 2;
-    animation: fade-in 3s linear;
-}
-
-.pernak3 {
-    width: 40px;
-    height: 40px;
-    border: 2px solid rgb(54, 163, 233);
-    transform: rotate(80deg);
-    position: absolute;
-    left: 630px;
-    filter: blur(1px);
-    animation: fade-in 4s linear;
-}
-
-.pernak4 {
-    width: 40px;
-    height: 40px;
-    border: 2px solid rgb(54, 163, 233);
-    transform: rotate(30deg);
-    position: absolute;
-    left: 400px;
-    top: 150px;
-    filter: blur(1px);
-    animation: fade-in 5s linear;
-}
-
-.pernak5 {
-    width: 20px;
-    height: 20px;
-    border: 2px solid rgb(54, 163, 233);
-    transform: rotate(20deg);
-    position: absolute;
-    left: 800px;
-    top: 370px;
-    filter: blur(1px);
-    animation: fade-in 6s linear;
-}
-
-.pernak6 {
-    width: 45px;
-    height: 45px;
-    border: 2px solid rgb(54, 163, 233);
-    transform: rotate(80deg);
-    position: absolute;
-    top: 88px;
-    left: 690px;
-    filter: blur(1px);
-    animation: fade-in 7s linear;
-}
 
 
 /* Akhir Jumbotron */
@@ -720,7 +721,6 @@ footer {
     }
 
     100% {
-        opacity: 1;
         visibility: visible;
         transform: translateX(0%);
     }
@@ -742,7 +742,19 @@ footer {
     0% {
         opacity: 0;
     }
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
 
+@keyframes pop-in {
+    0% {
+        opacity: 0;
+    }
+    99% {
+        opacity: 0;
+    }
     100% {
         opacity: 1;
         visibility: visible;
