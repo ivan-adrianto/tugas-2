@@ -1,3 +1,11 @@
+const noSSLSites = ["http://ivanadrianto.com", "http://www.ivanadrianto.com"];
+if (noSSLSites.includes(window.location.origin)) {
+  window.location.href = window.location.href.replace(
+    window.location.origin,
+    "https://ivanadrianto.com"
+  );
+}
+
 const homeButton = document.getElementById("home");
 const portfolioButton = document.getElementById("portfolio");
 
@@ -31,5 +39,5 @@ function addObserver(el) {
 }
 scrollTrigger("#expertise");
 scrollTrigger("#working-exp");
-scrollTrigger("#education")
-scrollTrigger("#portfolio-home")
+scrollTrigger("#education");
+scrollTrigger("#portfolio-home");
