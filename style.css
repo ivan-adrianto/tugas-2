@@ -1,3 +1,8 @@
+/* Container */
+.container {
+    overflow-x: hidden;
+}
+
 /* Navbar */
 
 .navbar {
@@ -57,6 +62,7 @@
     margin-left: -40px;
     transition: all 0.5s ease-in-out;
 }
+
 #lingkaran1:hover {
     opacity: 50%;
     transform: scale(1.05);
@@ -210,11 +216,13 @@
 #portfolio-home.active {
     animation: slide-right 0.7s ease-in-out;
 }
+
 /* Akhir Projects Section */
 /* Education */
 #education.active {
     animation: slide-left 1s ease-in-out;
 }
+
 .education h1 {
     color: white;
     font-family: 'Kanit', sans-serif;
@@ -269,6 +277,7 @@
 #expertise.active {
     animation: slide-left 0.7s linear;
 }
+
 .expertise h1 {
     color: white;
     font-family: 'Kanit', sans-serif;
@@ -313,6 +322,7 @@
 #working-exp.active {
     animation: slide-right 1s ease-in-out;
 }
+
 .job-exp h1 {
     font-size: 700px !important;
     color: none;
@@ -661,6 +671,7 @@ footer {
         width: 100% !important;
         margin-bottom: 50px;
     }
+
     .card-text {
         font-size: 16px !important;
     }
@@ -742,6 +753,7 @@ footer {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
         visibility: visible;
@@ -752,9 +764,11 @@ footer {
     0% {
         opacity: 0;
     }
+
     99% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
         visibility: visible;
