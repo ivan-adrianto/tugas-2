@@ -490,6 +490,10 @@ footer {
     margin-bottom: 20px;
 }
 
+.portfolio-description a p {
+    color: #36A3E9;
+}
+
 .portfolio-item {
     display: flex;
 }
